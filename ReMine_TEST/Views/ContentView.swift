@@ -14,6 +14,12 @@ struct ContentView: View {
                         print("aaa")
                     }
                 }
+//            表示のテスト
+            List {
+                ForEach(1..<100) {
+                    Text(String($0))
+                }
+            }
         }
         
     }
